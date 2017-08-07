@@ -1,0 +1,113 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+<link rel="stylesheet" href="Css/bootstrap.css">
+<link rel="stylesheet" href="Css/Style.css">
+<link rel="stylesheet" href="Css/jquery.fullPage.css">
+<script src="Js/bootstrap.js"></script>
+<script src="Js/jquery-1.11.3.min.js"></script>
+<script src="Js/jquery.fullPage.js"></script>
+</head>
+
+<body>
+<header>
+	<nav class="navbar navbar-default navbar-inverse navbar-fixed-top">		
+		<div class="navbar-header">
+				
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				
+			<a href="#" class="navbar-brand"><img src="Image/Logo.png"></a>
+		</div>
+				
+		<div class="collapse navbar-collapse navbar-ex1-collapse">
+			<ul class="nav navbar-nav">
+				<li><a href="#">What We Do?</a></li>
+				<li><a href="#">Service</a></li>
+				<li><a href="#">Contact</a></li>
+			</ul>
+		</div>
+	</nav>
+</header>
+
+<div class="wrapper">
+	<div class="section">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6 text">
+					<h1>Laru&trade;</h1>
+					<p>We help LARU&trade; to build they<br>Android and IOS Application</p>
+					<div class="click">
+						<a href="#">Read More</a>
+					</div>
+				</div>
+				<div class="col-md-6 gadget">
+					<img src="Image/Device1.png" class="device1">
+					<img src="Image/Device2.png" class="device2">
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="section">
+		<div class="slide2 container">
+			<div class="row">
+				<div class="col-md-12 s2text">
+					<img src="Image/Slide2/device.PNG">
+					<h1>SHEDINK&trade;</h1>
+					<p>Your Tattoo directory<br>companion</p>
+					<div class="click1">
+						<a href="#">Read More</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="section">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6 net">
+					<h1>NET</h1>
+					<p>Indonesia Morning Show Web<br>Developtment</p>
+					<div class="click">
+						<a href="#">Read More</a>
+					</div>
+				</div>
+				<div class="col-md-6 net-device">
+					<img src="Image/Slide3/device.png" alt="">
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="section" id="bg4">
+			<div class="beng-beng">
+				<h1>BENG BENG MAXX</h1>
+				<p>Modeling and Rendering<br>Beng Beng Maxx</p>
+				<div class="click1">
+					<a href="#">Read More</a>
+				</div>
+			</div>
+		<img src="Image/bg4.jpg" alt="">
+	</div>
+</div>
+
+<script>
+	$(document).ready(function(){
+		$('.wrapper').fullpage({
+			anchors: ['firstPage', 'secondPage', '3rdPage', '4thPage'],
+			navigation: true,
+			navigationPosition: 'right',
+			navigationTooltips: ['First', 'Second', 'Third', 'Fourth']
+		});
+	});
+</script>
+
+<script>
+	var nav = $('body').hasClass('navbar');
+</script>
+</body>
+</html>

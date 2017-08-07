@@ -1,0 +1,935 @@
+@charset "utf-8";
+/* CSS Document */
+
+*
+{
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+}
+
+.navbar
+{
+	background: rgba(0,0,0,0.00);
+	border: none;
+	z-index: 999;
+}
+
+.navbar-nav
+{
+	float: right;
+}
+
+.navbar-brand img
+{
+	max-width: 50px;
+}
+
+.text h1
+{
+	font-size: 30px;
+}
+
+.text p
+{
+	text-align: justify;
+	max-width: 500px;
+	font-weight: bolder;
+	font-size: 20px;
+}
+
+.click
+{
+	margin: auto;
+	text-align: center;
+	position: relative;
+	z-index: 4;
+}
+
+.click a
+{
+	text-decoration: none;
+	color: black;
+	line-height: 40px;
+	height: 40px;
+	width: 100px;
+	float: left;
+	text-align: center;
+	border: 1px solid black;
+	transition: 0.2s ease;
+}
+
+.click a:hover
+{
+	border: 1px solid #237C70;
+	color: #237C70;
+}
+
+.slide2
+{
+	width: 100%;
+	height: 700px;
+	background: linear-gradient(to right, #aab1b9, #101010);
+}
+
+.gadget
+{
+	position: relative;
+}
+
+.device1
+{
+	z-index: 2;
+	margin-top: 0;
+	transition: 0.5s;
+}
+
+.device2
+{
+	position: absolute;
+	left: 35%;
+	
+	top: 100px;
+	z-index: 1;
+	margin-top: 0px;
+	transition: 0.5s ease;
+}
+
+.device1:hover
+{
+	margin-top: -50px;
+}
+
+.device2:hover
+{
+	margin-top: -50px;
+}
+
+.s2text
+{
+	top: 350px;
+	margin-left: 35%;
+	color: white;
+	position: relative;
+}
+
+.s2text h1
+{
+	font-size: 20px;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+}
+
+.s2text p
+{
+	font-size: 20px;
+	max-width: 20%;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+}
+
+.click1
+{
+	margin: auto;
+	text-align: center;
+}
+
+.click1 a
+{
+	text-decoration: none;
+	color: #DFDFDF;
+	line-height: 40px;
+	height: 40px;
+	width: 100px;
+	float: left;
+	text-align: center;
+	border: 1px solid #DFDFDF;
+	transition: 0.2s ease;
+}
+
+.click1 a:hover
+{
+	border: 1px solid white;
+	color: white;
+}
+
+.s2text h1, .s2text p, .click1
+{
+	z-index: 30;
+	position: relative;
+}
+
+.s2text img
+{
+	max-width: 60%;
+	position: absolute;
+	top: -200%;
+	left: -5%;
+	z-index: 1;
+	margin-top: 0px;
+	transition: 0.5s ease;
+}
+
+.s2text img:hover
+{
+	margin-top: -50px;
+}
+
+.net
+{
+	left: 25%;
+	top: 250px;
+	position: relative;
+	z-index: 10;
+}
+
+.net h1
+{
+	font-size: 30px;
+}
+
+.net p
+{
+	font-size: 24px;
+	font-weight: bold;
+	max-width: 60%;
+}
+
+.net-device img
+{
+	max-width: 150%;
+	margin-left: -20%;
+}
+
+#bg4
+{
+	position: relative;
+}
+
+#bg4 img
+{
+	margin: auto;
+	width: 100%;
+	height: 100%;
+}
+
+.beng-beng
+{
+	margin-left: 10%;
+	position: absolute;
+	margin-top: 17%;
+	color: white;
+}
+
+.beng-beng h1
+{
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 20px;
+}
+
+.beng-beng p
+{
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 20px;
+	font-weight: bold;
+}
+
+/*================================================================*/
+@media(max-width: 1000px)
+{
+	*
+{
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+}
+
+.navbar
+{
+	background: rgba(0,0,0,0.00);
+	border: none;
+	z-index: 999;
+}
+
+.navbar-nav
+{
+	float: right;
+}
+
+.navbar-brand img
+{
+	max-width: 50px;
+}
+
+.text h1
+{
+	font-size: 30px;
+}
+
+.text p
+{
+	text-align: justify;
+	max-width: 500px;
+	font-weight: bolder;
+	font-size: 20px;
+}
+
+.click
+{
+	margin: auto;
+	text-align: center;
+	position: relative;
+	z-index: 4;
+}
+
+.click a
+{
+	text-decoration: none;
+	color: black;
+	line-height: 40px;
+	height: 40px;
+	width: 100px;
+	float: left;
+	text-align: center;
+	border: 1px solid black;
+	transition: 0.2s ease;
+}
+
+.click a:hover
+{
+	border: 1px solid #237C70;
+	color: #237C70;
+}
+
+.slide2
+{
+	width: 100%;
+	height: 700px;
+	background: linear-gradient(to right, #aab1b9, #101010);
+}
+
+.gadget
+{
+	position: relative;
+}
+
+.device1
+{
+	z-index: 2;
+	margin-top: 0;
+	transition: 0.5s;
+	width: 300px;
+}
+
+.device2
+{
+	position: absolute;
+	left: 35%;
+	top: 50px;
+	z-index: 1;
+	margin-top: 0px;
+	transition: 0.5s ease;
+	max-width: 80%;
+	width: 300px;
+}
+
+.device1:hover
+{
+	margin-top: -50px;
+}
+
+.device2:hover
+{
+	margin-top: -50px;
+}
+
+.s2text
+{
+	top: 350px;
+	margin-left: 35%;
+	color: white;
+	position: relative;
+}
+
+.s2text h1
+{
+	font-size: 20px;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+}
+
+.s2text p
+{
+	font-size: 20px;
+	max-width: 400px;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+}
+
+.click1
+{
+	margin: auto;
+	text-align: center;
+}
+
+.click1 a
+{
+	text-decoration: none;
+	color: #DFDFDF;
+	line-height: 40px;
+	height: 40px;
+	width: 100px;
+	float: left;
+	text-align: center;
+	border: 1px solid #DFDFDF;
+	transition: 0.2s ease;
+}
+
+.click1 a:hover
+{
+	border: 1px solid white;
+	color: white;
+}
+
+.s2text h1, .s2text p, .click1
+{
+	z-index: 30;
+	position: relative;
+}
+
+.s2text img
+{
+	max-width: 100%;
+	position: absolute;
+	top: -300%;
+	left: -5%;
+	z-index: 1;
+	margin-top: 0px;
+	transition: 0.5s ease;
+}
+
+.s2text img:hover
+{
+	margin-top: -50px;
+}
+
+.net
+{
+	left: 25%;
+	top: 0px;
+	position: relative;
+	z-index: 10;
+}
+
+.net h1
+{
+	font-size: 30px;
+}
+
+.net p
+{
+	font-size: 24px;
+	font-weight: bold;
+}
+
+.net-device img
+{
+	max-width: 90%;
+	margin: auto;
+}
+	
+
+#bg4
+{
+	position: relative;
+}
+
+#bg4 img
+{
+	margin: auto;
+	width: 100%;
+	height: 100%;
+}
+
+.beng-beng
+{
+	margin-left: 10%;
+	position: absolute;
+	margin-top: 17%;
+	color: white;
+}
+
+.beng-beng h1
+{
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 20px;
+}
+
+.beng-beng p
+{
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 20px;
+	font-weight: bold;
+}
+}
+
+@media(max-width: 720px)
+{
+	*
+{
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+}
+
+.navbar
+{
+	background: rgba(0,0,0,0.00);
+	border: none;
+	z-index: 999;
+}
+
+.navbar-nav
+{
+	float: right;
+}
+
+.navbar-brand img
+{
+	max-width: 50px;
+}
+
+.text h1
+{
+	font-size: 30px;
+}
+
+.text p
+{
+	text-align: justify;
+	max-width: 500px;
+	font-weight: bolder;
+	font-size: 20px;
+}
+
+.click
+{
+	margin: auto;
+	text-align: center;
+	position: relative;
+	z-index: 4;
+}
+
+.click a
+{
+	text-decoration: none;
+	color: black;
+	line-height: 40px;
+	height: 40px;
+	width: 100px;
+	float: left;
+	text-align: center;
+	border: 1px solid black;
+	transition: 0.2s ease;
+}
+
+.click a:hover
+{
+	border: 1px solid #237C70;
+	color: #237C70;
+}
+
+.slide2
+{
+	width: 100%;
+	height: 700px;
+	background: linear-gradient(to right, #aab1b9, #101010);
+}
+
+.gadget
+{
+	position: relative;
+}
+
+.device1
+{
+	z-index: 2;
+	margin-top: 0;
+	transition: 0.5s;
+	width: 300px;
+}
+
+.device2
+{
+	position: absolute;
+	left: 35%;
+	top: 50px;
+	z-index: 1;
+	margin-top: 0px;
+	transition: 0.5s ease;
+	max-width: 80%;
+	width: 300px;
+}
+
+.device1:hover
+{
+	margin-top: -50px;
+}
+
+.device2:hover
+{
+	margin-top: -50px;
+}
+
+.s2text
+{
+	top: 100px;;
+	margin-left: 50%;
+	color: white;
+	position: relative;
+}
+
+.s2text h1
+{
+	font-size: 20px;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+}
+
+.s2text p
+{
+	font-size: 20px;
+	max-width: 400px;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+}
+
+.click1
+{
+	margin: auto;
+	text-align: center;
+}
+
+.click1 a
+{
+	text-decoration: none;
+	color: #DFDFDF;
+	line-height: 40px;
+	height: 40px;
+	width: 100px;
+	float: left;
+	text-align: center;
+	border: 1px solid #DFDFDF;
+	transition: 0.2s ease;
+}
+
+.click1 a:hover
+{
+	border: 1px solid white;
+	color: white;
+}
+
+.s2text h1, .s2text p, .click1
+{
+	z-index: 30;
+	position: relative;
+}
+
+.s2text img
+{
+	max-width: 150%;
+	position: absolute;
+	top: 200%;
+	left: -90%;
+	z-index: 1;
+	margin-top: 0px;
+	transition: 0.5s ease;
+}
+
+.s2text img:hover
+{
+	margin-top: -50px;
+}
+
+.net
+{
+	left: 25%;
+	top: 0px;
+	position: relative;
+	z-index: 10;
+}
+
+.net h1
+{
+	font-size: 30px;
+}
+
+.net p
+{
+	font-size: 24px;
+	font-weight: bold;
+}
+
+.net-device img
+{
+	max-width: 90%;
+	margin: auto;
+}
+	
+
+#bg4
+{
+	position: relative;
+}
+
+#bg4 img
+{
+	margin: auto;
+	width: 140%;
+	height: 100%;
+}
+
+.beng-beng
+{
+	margin-left: 10%;
+	position: absolute;
+	margin-top: 17%;
+	color: white;
+}
+
+.beng-beng h1
+{
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 20px;
+}
+
+.beng-beng p
+{
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 20px;
+	font-weight: bold;
+}
+}
+
+/*================================================================*/
+@media(max-width: 480px)
+{
+	*
+{
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+}
+
+.navbar
+{
+	background: rgba(0,0,0,0.00);
+	border: none;
+	z-index: 999;
+}
+
+.navbar-nav
+{
+	float: right;
+}
+
+.navbar-brand img
+{
+	max-width: 50px;
+}
+
+.text h1
+{
+	font-size: 30px;
+}
+
+.text p
+{
+	text-align: justify;
+	max-width: 500px;
+	font-weight: bolder;
+	font-size: 20px;
+}
+
+.click
+{
+	margin: auto;
+	text-align: center;
+	position: relative;
+	z-index: 4;
+}
+
+.click a
+{
+	text-decoration: none;
+	color: black;
+	line-height: 40px;
+	height: 40px;
+	width: 100px;
+	float: left;
+	text-align: center;
+	border: 1px solid black;
+	transition: 0.2s ease;
+}
+
+.click a:hover
+{
+	border: 1px solid #237C70;
+	color: #237C70;
+}
+
+.slide2
+{
+	width: 100%;
+	height: 700px;
+	background: linear-gradient(to right, #aab1b9, #101010);
+}
+
+.gadget
+{
+	position: relative;
+}
+
+.device1
+{
+	z-index: 2;
+	margin-top: 0;
+	transition: 0.5s;
+	width: 300px;
+}
+
+.device2
+{
+	position: absolute;
+	left: 35%;
+	top: 50px;
+	z-index: 1;
+	margin-top: 0px;
+	transition: 0.5s ease;
+	max-width: 80%;
+	width: 300px;
+}
+
+.device1:hover
+{
+	margin-top: -50px;
+}
+
+.device2:hover
+{
+	margin-top: -50px;
+}
+
+.s2text
+{
+	top: 100px;;
+	margin-left: 50%;
+	color: white;
+	position: relative;
+}
+
+.s2text h1
+{
+	font-size: 20px;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+}
+
+.s2text p
+{
+	font-size: 20px;
+	max-width: 400px;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+}
+
+.click1
+{
+	margin: auto;
+	text-align: center;
+}
+
+.click1 a
+{
+	text-decoration: none;
+	color: #DFDFDF;
+	line-height: 40px;
+	height: 40px;
+	width: 100px;
+	float: left;
+	text-align: center;
+	border: 1px solid #DFDFDF;
+	transition: 0.2s ease;
+}
+
+.click1 a:hover
+{
+	border: 1px solid white;
+	color: white;
+}
+
+.s2text h1, .s2text p, .click1
+{
+	z-index: 30;
+	position: relative;
+}
+
+.s2text img
+{
+	max-width: 200%;
+	position: absolute;
+	top: 200%;
+	left: -100%;
+	z-index: 1;
+	margin-top: 0px;
+	transition: 0.5s ease;
+}
+
+.s2text img:hover
+{
+	margin-top: -50px;
+}
+
+.net
+{
+	left: 25%;
+	top: 0px;
+	position: relative;
+	z-index: 10;
+}
+
+.net h1
+{
+	font-size: 30px;
+}
+
+.net p
+{
+	font-size: 24px;
+	font-weight: bold;
+}
+
+.net-device img
+{
+	max-width: 90%;
+	margin: auto;
+}
+	
+
+#bg4
+{
+	position: relative;
+}
+
+#bg4 img
+{
+	margin: auto;
+	width: 175%;
+	height: 100%;
+}
+
+.beng-beng
+{
+	margin-left: 10%;
+	position: absolute;
+	margin-top: 17%;
+	color: white;
+}
+
+.beng-beng h1
+{
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 20px;
+}
+
+.beng-beng p
+{
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 20px;
+	font-weight: bold;
+}
+}
