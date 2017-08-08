@@ -6,34 +6,38 @@
 <link rel="stylesheet" href="Css/bootstrap.css">
 <link rel="stylesheet" href="Css/Style.css">
 <link rel="stylesheet" href="Css/jquery.fullPage.css">
-<script src="Js/bootstrap.js"></script>
 <script src="Js/jquery-1.11.3.min.js"></script>
 <script src="Js/jquery.fullPage.js"></script>
 </head>
 <!--komen-->
 <body>
 <header>
-	<nav class="navbar navbar-default navbar-inverse navbar-fixed-top">		
-		<div class="navbar-header">
+		<nav class="navbar navbar-default navbar-fixed-top">
+			
 				
-				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-				</button>
 				
-			<a href="#" class="navbar-brand"><img src="Image/Logo.png"></a>
-		</div>
+				<div class="navbar-header">
 				
-		<div class="collapse navbar-collapse navbar-ex1-collapse">
-			<ul class="nav navbar-nav">
-				<li><a href="#">What We Do?</a></li>
-				<li><a href="#">Service</a></li>
-				<li><a href="#">Contact</a></li>
-			</ul>
-		</div>
-	</nav>
-</header>
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#menu">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+				
+					<a href="#" class="navbar-brand">Rumah-Baliku.com</a>
+				</div>
+				
+				<div class="collapse navbar-collapse" id="menu">
+					<ul class="nav navbar-nav">
+						<li><a href="#">Home</a></li>
+						<li><a href="#">Gallery</a></li>
+						<li><a href="#">Booking</a></li>
+						<li><a href="#">Contact Us</a></li>
+					</ul>
+				</div>
+				
+		</nav>
+	</header>
 
 <div class="wrapper">
 	<div class="section">
@@ -105,9 +109,6 @@
 		});
 	});
 </script>
-
-<script>
-	var nav = $('body').hasClass('navbar');
-</script>
+<script src="Js/bootstrap.js"></script>
 </body>
 </html>
