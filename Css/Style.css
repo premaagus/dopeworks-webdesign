@@ -183,7 +183,7 @@
 .net
 {
 	left: 10%;
-	top: 30px;
+	top: 250px;
 	position: relative;
 	z-index: 10;
 }
@@ -199,17 +199,12 @@
 	font-weight: bold;
 	max-width: 60%;
 }
-.net-device{
-	top: -180px;
-	position: relative;
-}
 
 .net-device img
 {
 	max-width: 150%;
 	margin-left: -20%;
-	transition: 1.5s ease;
-	position: absolute;
+	transition: 1s ease;
 }
 .net-device img:hover{
 	margin-left: -300px;
@@ -680,8 +675,9 @@
 {
 	max-width: 90%;
 	margin: auto;
-	transition: 1.5s ease;
 }
+	
+
 #bg4
 {
 	position: relative;
